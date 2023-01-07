@@ -15,7 +15,7 @@ def myfunc(name):
     
 # your class 
 class TestModel(BaseMLModel):
-    # **kwargs contains all parameters you have sent from your client ex. frontend.
+    # **kwargs contains all parameters you have sent from your client.
     def run(self, **kwargs):
         # call your function
         return myfunc(name=kwargs['name'])
