@@ -1,9 +1,9 @@
 # client-python-basic-interface
-A simple interface that creates very basic http server with python to connect between python project like a ML model and JS clients or servers for demo purposes, DON'T USE IN PRODUCTION
+A simple interface that creates a very basic http server in python to connect between your python project like an Machine Learning model and JS clients or servers for demo purposes, DON'T USE IN PRODUCTION
 
 
 ## How To Use
-- Put 3 files any where in your project.
+- Put the 3 files any where in your project.
 - Open ``` use.py ``` file
 - You will find a ``` TestModel ``` class, feel free to edit or remove it, It's just an example how you can use the script.
 - Write your own class and extend it from ``` BaseMLModel ``` and override ``` run() ``` function with your logic like calling your model function
