@@ -1,4 +1,4 @@
-from server import BaseMLModel
+from app import BaseMLModel
 
 def myfunc(name):
     return "Hello " + name
