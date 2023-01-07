@@ -15,10 +15,10 @@ def myfunc(name):
     
 # your class 
 class TestModel(BaseMLModel):
-    # **kwargs contains all parameters you have sent from your client.
+
+    # **kwargs contains all parameters you have sent from your client.    
     def run(self, **kwargs):
-        # call your function
-        return myfunc(name=kwargs['name'])
+        return myfunc(name=kwargs['name']) # call your function
 ```
 
 - Just run ``` python server.py ``` and you will see ``` Server started http://localhost:8080 ``` and you can stop it by interrupting the command.
