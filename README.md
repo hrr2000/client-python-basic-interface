@@ -27,7 +27,7 @@ class TestModel(BaseMLModel):
 ## Client side 
 - You can call the host main endpoint and it supports only 1 POST request with.
 - ``` model_name ``` string parameter which contains the exact name of your class
-- ``` paramters ``` in a JSON form.
+- ``` data ``` in a JSON form.
 - Or just use the client function in the ``` MLInterface.js ``` file.
 in HTML
 ```html
