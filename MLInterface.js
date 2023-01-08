@@ -1,4 +1,4 @@
-async function runModel(modelName, parameters) {
+async function runModel(modelName, data) {
     return fetch('http://localhost:8080', {
         headers: {
             'Content-Type': 'application/json'
@@ -6,7 +6,7 @@ async function runModel(modelName, parameters) {
         method: 'POST',
         body: JSON.stringify({
             model_name: modelName,
-            parameters
+            data
         })
     })
 }
